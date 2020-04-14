@@ -610,14 +610,6 @@
                 <div class="row">
                     <div class="blog-slied owl-carousel owl-loaded owl-drag">
 
-
-
-
-
-
-
-
-
                     <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2800px, 0px, 0px); transition: all 0.8s ease 0s; width: 7600px;"><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
                             <div class="singel-blog mt-30">
                                 <div class="blog-thum">
@@ -912,7 +904,6 @@
 
         <!--====== FOOTER PART START ======-->
 
->>>>>>> f2472922f8f44ed956c1645171a7383928aabaab
         @include('layouts.footer')
 
         <!--====== FOOTER PART ENDS ======-->
