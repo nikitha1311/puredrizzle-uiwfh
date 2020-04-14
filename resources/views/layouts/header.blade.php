@@ -1,6 +1,19 @@
+<!--====== PREALOADER PART START ======-->
+
+<div class="preloader">
+        <div class="thecube">
+            <div class="cube c1"></div>
+            <div class="cube c2"></div>
+            <div class="cube c4"></div>
+            <div class="cube c3"></div>
+        </div>
+    </div>
+
+    <!--====== PREALOADER PART START ======-->
+
 <header id="header-part" class="header-2">
         <!--===== NAVBAR START =====-->
-        <div class="navigation sticky">
+        <div class="navigation ">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
@@ -65,7 +78,7 @@
                             </div>
                             
                             <div class="cart-search ">
-                                <p class="d-none d-lg-block"><i class="fa fa-phone"></i> (+88 - 123456789)</p>
+                                <p class="d-none d-lg-block"><i class="fa fa-phone"></i> (+Phone number)</p>
                                 <ul class="text-right">
                                     <li><a href="#"><i class="fa fa-shopping-basket"></i><span>0</span></a></li>
                                     <li><a id="search" href="#"><i class="fa fa-search"></i></a>
