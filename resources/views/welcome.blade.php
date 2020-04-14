@@ -913,6 +913,14 @@
         @include('layouts.footer')
 
         <!--====== FOOTER PART ENDS ======-->
+
+        <!--====== BACK TOP TOP PART START ======-->
+
+        <a href="#" class="back-to-top">
+            <img src="images/back-to-top.png" alt="Icon">
+        </a>
+
+        <!--====== BACK TOP TOP PART ENDS ======-->
     </div>
 </body>
 
