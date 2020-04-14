@@ -2,21 +2,23 @@
 <html class="" lang="en">
 <head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
 <body>
 <div class="home-banner">
-    
+
         <!--====== HEADER PART START ======-->
-        
+
         @include('layouts.header')
-        
+
+
         <!--====== HEADER PART ENDS ======-->
-        
+
         <!--====== SLIDER PART START ======-->
-        
+
         <section id="slider-part" class="bg_cover slider-part-2" style="background-image: url(images/bg-3.jpg)">
             <div class="content-slied slick-initialized slick-slider"><span class="prev slick-arrow" style="display: block;"><i class="fa fa-angle-left"></i></span>
                 <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4047px;"><div class="single-slider d-flex align-items-center slick-slide" data-slick-index="0" aria-hidden="true" style="width: 1349px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;" tabindex="-1">
@@ -56,16 +58,16 @@
                         </div>
                     </div>
                 </div></div></div>
-                
-                
+
+
             <span class="next slick-arrow" style="display: block;"><i class="fa fa-angle-right"></i></span></div>
         </section>
-        
+
         <!--====== SLIDER PART ENDS ======-->
 
 
         <!--====== PRODUCTS PART START ======-->
-        
+
         <section id="products-part" class="pt-65">
             <div class="container">
                 <div class="row justify-content-center">
@@ -332,11 +334,11 @@
                 </div>
             </div>
         </section>
-        
+
         <!--====== PRODUCTS PART ENDS ======-->
 
         <!--====== SERVICES PART STARTS ======-->
-     
+
         <section id="services-part" class="services-part-2 pt-70 pb-50">
             <div class="container-fluid">
                 <div class="row justify-content-center">
@@ -409,9 +411,9 @@
                 </div>
             </div>
         </section>
-     
+
         <!--====== SERVICES PART ENDS ======-->
-        
+
         <!--====== DELIVERY PART START ======-->
 
         <section id="delivery-part" class="delivery-part-2 bg_cover pt-95 pb-100" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
@@ -455,10 +457,10 @@
                 </div>
                 <div class="row">
                     <div class="client-slied owl-carousel owl-loaded owl-drag">
-                        
-                        
-                        
-                        
+
+
+
+
                     <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3000px, 0px, 0px); transition: all 0.8s ease 0s; width: 4800px;"><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
                             <div class="singel-client mt-50">
                                 <div class="client-thum">
@@ -585,7 +587,7 @@
         </section>
 
         <!--====== CLIENT PART ENDS ======-->
-        
+
          <!--====== BLOG PART START ======-->
 
         <section id="blog-part" class="pt-70 pb-60">
@@ -607,15 +609,15 @@
                 </div>
                 <div class="row">
                     <div class="blog-slied owl-carousel owl-loaded owl-drag">
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
-                        
+
+
+
+
+
+
+
+
+
                     <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2800px, 0px, 0px); transition: all 0.8s ease 0s; width: 7600px;"><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
                             <div class="singel-blog mt-30">
                                 <div class="blog-thum">
@@ -909,7 +911,8 @@
         <!--====== BLOG PART ENDS ======-->
 
         <!--====== FOOTER PART START ======-->
-        
+
+>>>>>>> f2472922f8f44ed956c1645171a7383928aabaab
         @include('layouts.footer')
 
         <!--====== FOOTER PART ENDS ======-->
