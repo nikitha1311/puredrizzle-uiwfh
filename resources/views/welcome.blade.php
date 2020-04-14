@@ -591,6 +591,7 @@
                             </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
                     </div>
                 </div>
+
             </section>
 
             <!--====== CLIENT PART ENDS ======-->
@@ -625,6 +626,18 @@
                                             <h3>22</h3>
                                             <span>Sep 2020</span>
                                         </div>
+
+                <div class="row">
+                    <div class="blog-slied owl-carousel owl-loaded owl-drag">
+
+                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2800px, 0px, 0px); transition: all 0.8s ease 0s; width: 7600px;"><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
+                            <div class="singel-blog mt-30">
+                                <div class="blog-thum">
+                                    <img src="images/blog/b-2.jpg" alt="Blog">
+                                    <div class="date text-center">
+                                        <h3>22</h3>
+                                        <span>Sep 2020</span>
+
                                     </div>
                                     <div class="blog-cont pt-25">
                                         <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
@@ -1072,8 +1085,12 @@
         <!--====== Magnific Popup js ======-->
         <script src=" {{ URL::asset('js/jquery.magnific-popup.min.js') }}"></script>
 
+
         <!--====== Slick js ======-->
         <script src="{{ URL::asset('js/slick.min.js') }}"></script>
+
+        @include('layouts.footer')
+
 
         <!--====== Main js ======-->
         <script src="{{ URL::asset('js/main.js') }}"></script>
