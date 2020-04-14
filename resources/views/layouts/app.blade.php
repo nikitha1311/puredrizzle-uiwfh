@@ -19,11 +19,10 @@
 <body>
 <div id="app">
     @include('layouts.header')
-{{--    <main class="py-4 container" >--}}
-{{--        @yield('content')--}}
-{{--    </main>--}}
+    <main class="py-4 container" >
+        @yield('content')
+    </main>
 
 @include('layouts.footer')
-</div>
-</body>
-</html>
+
+
