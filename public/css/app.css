@@ -10273,11 +10273,12 @@ p.form-message.error {
 
 
 
+
 .image img {
 	width: 100%;
 }
 .text {
-	background: blak;
+	background: blank;
 	padding: 22px 14px;
 	text-align: justify;
 	margin-top: 0px;
@@ -10304,3 +10305,5 @@ p.form-message.error {
 .slider.slider-2 h2 {
 	color: red;
 }
+
+

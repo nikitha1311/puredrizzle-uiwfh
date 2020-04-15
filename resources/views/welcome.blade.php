@@ -1066,14 +1066,6 @@
 
 
 
-
-
-
-
-
-
-
-
         <!--====== Bootstrap js ======-->
         <script src=" {{ URL::asset('js/popper.min.js') }}"></script>
         <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
@@ -1097,7 +1089,11 @@
          <!--====== jquery js ======-->
          <script src="js/custom.js"></script>
 
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
         <script src="js/slick.js"></script>
     </body>
+
 </html>
+
+
