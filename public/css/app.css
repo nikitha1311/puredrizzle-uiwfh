@@ -3301,29 +3301,7 @@
 }
 
 /*animats.css ends */
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
-
-@nikitha1311
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-nikitha1311
-/
-pure-drizzle-wfhui
-1
-00
-Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/default.css
-@nikitha1311 nikitha1311 pureuicommit
-1de5534 1 hour ago
-1234 lines (922 sloc)  11.3 KB
 
     /* Deafult Margin & Padding */
 
@@ -4579,29 +4557,6 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/default.cs
     margin: 0
 }
 /*jquery ends */
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@nikitha1311
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-nikitha1311
-/
-pure-drizzle-wfhui
-1
-00
-Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/magnific-popup.css
-@nikitha1311 nikitha1311 pureuicommit
-1de5534 1 hour ago
-442 lines (385 sloc)  7.24 KB
 
     /* Magnific Popup CSS */
 
@@ -5046,29 +5001,7 @@ screen and (max-height: 300px) {
     }
 }
 /*manific ends */
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
-
-@nikitha1311
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-nikitha1311
-/
-pure-drizzle-wfhui
-1
-00
-Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/nice-select.css
-@nikitha1311 nikitha1311 pureuicommit
-1de5534 1 hour ago
-185 lines (163 sloc)  3.82 KB
 
 .nice-select {
     -webkit-tap-highlight-color: transparent;
@@ -6423,67 +6356,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/responsive
 }
 /*slick ends*/
 
-Skip to content
-Search or jump to…
 
-Pull requests
-Issues
-Marketplace
-Explore
-
-@nikitha1311
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-nikitha1311
-/
-pure-drizzle-wfhui
-1
-00
-Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/style.css
-@nikitha1311 nikitha1311 pureuicommit
-1de5534 1 hour ago
-3815 lines (3183 sloc)  72.6 KB
-
-    /*
-      Theme Name: Fresh Vial - Drinking Mineral Water Delivery HTMl Template
-      Author: Humayun Ahmed
-      Author Url: https://themeforest.net/user/24webpro
-      Support: humayunahmed82@gmail.com
-      Description: Creative  HTML5 template.
-      Version: 1.0
-    */
-
-    /* CSS Index
-    -----------------------------------
-    01. Theme default css
-    02. HEADER
-    03. SLIDER
-    04. VIDEO
-    05. PRODUCTS
-    06. TRUSTED CLIENT
-    07. SERVICES
-    08. CLIENT
-    09. BLOG
-    10. DELIVERY
-    11. FOOTER
-    12. BRAND
-    13. BUY PRODUCTS
-    14. PRICING
-    15. PAGE BANNER
-    16. ABOUT PAGE
-    17. FAQ PAGE
-    18. TEAM PAGE
-    19. LOGIN & REGISTER PAGE
-    20. BLOG DETAILS PAGE
-    21. PRODUTCT PAGE
-    22. PRODUCTS DETAILS PAGE
-    23. CART PAGE
-    24. CHECKOUT
-    25. CONTACT
-    */
 
     /*===========================
         01. Theme default css
@@ -6492,7 +6365,9 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/style.css
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Poppins:400,500,600,700');
 body {
     font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
 }
+
 
 img {
     max-width: 100%;
@@ -10291,6 +10166,7 @@ p.form-message.error {
 }
 
 
+
 /* Deafult Margin & Padding */
 
 /*-- Margin Top --*/
@@ -12159,4 +12035,36 @@ screen and (max-height: 300px) {
 }
 
 
+
+#blog-part .slider {
+        width: 80%;
+        margin: 100px auto;
+    }
+
+#blog-part .slick-slide {
+      margin: 0px 20px;
+    }
+
+#blog-part .slick-slide img {
+      width: 100%;
+    }
+
+#blog-part .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+#blog-part .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+#blog-part .slick-active {
+      opacity: .5;
+    }
+
+#blog-part .slick-current {
+      opacity: 1;
+    }
 

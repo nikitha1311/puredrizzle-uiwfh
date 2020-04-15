@@ -24,18 +24,15 @@ $(window).on('load', function(event) {
         $('#quantity').val(value);         
     })
 
+    $(".slider-area").slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay:true,
+        speed:1000,
 
-     $('.as').slick({
-      dots: true,
-      infinite: false,
-      autoplay: true,
-      autoplaySpeed: 2000,
-      pauseOnFocus: false,
-      pauseOnHover: false,
-      pauseOnDotsHover: false,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-
+        
       responsive: [
     
         {
@@ -63,47 +60,10 @@ $(window).on('load', function(event) {
        // settings: "unslick"
        // instead of a settings object
      ]
-   
-    });
-   
-
-  
-    $('.asa').slick({
-      dots: true,
-      infinite: false,
-      autoplay: true,
-      autoplaySpeed: 3000,
-      pauseOnFocus: false,
-      pauseOnHover: false,
-      pauseOnDotsHover: false,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      fade: true,
-      cssEase: 'linear'
-    });
+  });
 
 
-    $(".blog-slied").owlCarousel({
-        loop: true,
-        nav: false,
-        dots: true,
-        autoplay: true,
-        smartSpeed: 800,
-        responsive: {
-            0: {
-                items: 1,
-                dots: false,
-            },
-            768: {
-                items: 2
-            },
-            992: {
-                items: 3
-            }
-        }
-    })
-
-    });
+});
 
    
   

@@ -1,7 +1,9 @@
+
 @extends('layouts.app')
 @section('head')
 
 @endsection
+
 
     <body>
 {{--        <div class="home-banner">--}}
@@ -606,336 +608,141 @@
 
             <!--====== BLOG PART START ======-->
 
-            <section id="blog-part" class="pt-70 pb-60">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center pb-15">
-                        <h2>Our letest news</h2>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus  suscipit massa dapibus blandit. Vivamus ac commodo eros.</p>
+            <section id='blog-part' class='pt-70 pb-70'>
+                <div class=''>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <div class="section-title text-center pb-15">
+                                <h2>Our letest news</h2>
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                                <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibus blandit. Vivamus ac commodo eros.</p>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class='slider-area slider'>
+                        <div class="owl-item" style="width: 400px;">
+                            <div class="col-lg-12">
+                                <div class="singel-blog mt-30">
+                                    <div class="blog-thum">
+                                        <img src="images/blog/b-3.jpg" alt="Blog">
+                                        <div class="date text-center">
+                                            <h3>22</h3>
+                                            <span>Sep 2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-cont pt-25">
+                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
+                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 400px;">
+                            <div class="col-lg-12">
+                                <div class="singel-blog mt-30">
+                                    <div class="blog-thum">
+                                        <img src="images/blog/b-1.jpg" alt="Blog">
+                                        <div class="date text-center">
+                                            <h3>22</h3>
+                                            <span>Sep 2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-cont pt-25">
+                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
+                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 400px;">
+                            <div class="col-lg-12">
+                                <div class="singel-blog mt-30">
+                                    <div class="blog-thum">
+                                        <img src="images/blog/b-2.jpg" alt="Blog">
+                                        <div class="date text-center">
+                                            <h3>22</h3>
+                                            <span>Sep 2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-cont pt-25">
+                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
+                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="owl-item" style="width: 400px;">
+                            <div class="col-lg-12">
+                                <div class="singel-blog mt-30">
+                                    <div class="blog-thum">
+                                        <img src="images/blog/b-3.jpg" alt="Blog">
+                                        <div class="date text-center">
+                                            <h3>22</h3>
+                                            <span>Sep 2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-cont pt-25">
+                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
+                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 400px;">
+                            <div class="col-lg-12">
+                                <div class="singel-blog mt-30">
+                                    <div class="blog-thum">
+                                        <img src="images/blog/b-2.jpg" alt="Blog">
+                                        <div class="date text-center">
+                                            <h3>22</h3>
+                                            <span>Sep 2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-cont pt-25">
+                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
+                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="owl-item" style="width: 400px;">
+                            <div class="col-lg-12">
+                                <div class="singel-blog mt-30">
+                                    <div class="blog-thum">
+                                        <img src="images/blog/b-1.jpg" alt="Blog">
+                                        <div class="date text-center">
+                                            <h3>22</h3>
+                                            <span>Sep 2020</span>
+                                        </div>
+                                    </div>
+                                    <div class="blog-cont pt-25">
+                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
+                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
+                                        <a href="#">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="blog-slied owl-carousel owl-loaded owl-drag">
+        </section>
 
 
-
-
-
-
-
-
-
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2800px, 0px, 0px); transition: all 0.8s ease 0s; width: 7600px;"><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-3.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-1.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-3.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-1.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-3.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-1.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-3.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-1.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-3.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-1.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-3.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-1.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 400px;"><div class="col-lg-12">
-                        <div class="singel-blog mt-30">
-                            <div class="blog-thum">
-                                <img src="images/blog/b-2.jpg" alt="Blog">
-                                <div class="date text-center">
-                                    <h3>22</h3>
-                                    <span>Sep 2020</span>
-                                </div>
-                            </div>
-                            <div class="blog-cont pt-25">
-                                <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                <a href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
-            </div>
-        </div>
-    </section>
-    <div class="input-group">
-        <span class="input-group-btn">
-            <button type="button" class="quantity-left-minus btn btn-number"  data-type="minus" data-field="">
-                <span class="glyphicon glyphicon-minus"></span>
-            </button>
-        </span>
-        <input type="text" id="quantity" name="quantity" class="form-control input-number tw-text-center" placeholder="jugs" value="10" min="1" max="100">
-        <span class="input-group-btn">
-            <button type="button" class="quantity-right-plus btn  btn-number" data-type="plus" data-field="">
-                <span class="glyphicon glyphicon-plus"></span>
-            </button>
-        </span>
-    </div>
             <!--====== BLOG PART ENDS ======-->
 
             <!--====== FOOTER PART START ======-->
