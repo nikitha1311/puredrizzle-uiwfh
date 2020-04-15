@@ -6,11 +6,26 @@ $(window).scroll(function(e){
 $(window).on('load', function(event) {
     
         $(".preloader").delay(500).fadeOut(500);
-    });
 
-    $(document).ready(function() {
+    let value ;
+    $('.quantity-left-minus').click(function(e){
+        e.preventDefault();
+        value = $('#quantity').val() 
+        value -= 1;
+        $('#quantity').val(value); 
+        if(value < 0){
+            $('#quantity').val('0'); 
+        } 
+    })
+    $('.quantity-right-plus').click(function(e){
+        e.preventDefault();
+        value = $('#quantity').val() 
+        value = Number(value) + Number('1');
+        $('#quantity').val(value);         
+    })
 
-    $('.as').slick({
+
+     $('.as').slick({
       dots: true,
       infinite: false,
       autoplay: true,
@@ -66,12 +81,9 @@ $(window).on('load', function(event) {
       fade: true,
       cssEase: 'linear'
     });
-  
-  });
 
-  
 
-   $(".blog-slied").owlCarousel({
+    $(".blog-slied").owlCarousel({
         loop: true,
         nav: false,
         dots: true,
@@ -90,3 +102,10 @@ $(window).on('load', function(event) {
             }
         }
     })
+
+    });
+
+   
+  
+
+   

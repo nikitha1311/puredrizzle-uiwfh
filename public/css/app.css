@@ -7496,6 +7496,9 @@ p {
 
 .singel-products .products-contant .products-cart {
     margin-top: 5px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .singel-products .products-contant .products-cart .cart-add {
@@ -7506,7 +7509,6 @@ p {
     color: #fff;
     font-size: 16px;
     margin-right: 8px;
-    margin-top: 10px;
     border-radius: 50px;
 }
 
@@ -10273,34 +10275,27 @@ p.form-message.error {
 
 
 
-.image img {
-	width: 100%;
+.quantity-right-plus{
+    background-color:#3228a75c;
+    border-color:#3228a75c;
+    color: #fff;
+    font-size:1.5rem;
 }
-.text {
-	background: blak;
-	padding: 22px 14px;
-	text-align: justify;
-	margin-top: 0px;
+.quantity-right-plus:hover{
+    background-color:#3228a7;
+    border-color:#3228a7;
 }
-.text h2 {
-	text-transform: capitalize;
-	font-weight: 600;
+.quantity-left-minus{
+    background-color:#359ddc5c;
+    border-color:#359ddc5c;
+    color: #fff;
+    font-size:1.5rem;
 }
-.text p {
-	font-size: 18px;
+.quantity-left-minus:hover{
+    background-color:#1989cc;
+    border-color:#1989cc;
+}
+#quantity.input-number{
+    font-size:1.5rem;
+}
 
-}
-.text a {
-	color: red;
-	font-size: 20px;
-	text-transform: capitalize;
-}
-.asa img {
-	width: 100%;
-	margin-top: 72px;
-	height: 700px;
-	object-fit: contain;
-}
-.slider.slider-2 h2 {
-	color: red;
-}

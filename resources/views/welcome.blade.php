@@ -5,7 +5,8 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
         <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet"/>
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
         <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     </head>
 
@@ -121,6 +122,20 @@
                                     <p class="text">Mauris sed massa eu nulla mollis vehicula quis id tortor</p>
                                     <div class="products-cart">
                                         <a class="cart-add" href="#"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+
+                                        <div class="input-group">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="quantity-left-minus btn btn-number"  data-type="minus" data-field="">
+                                                    <span class="glyphicon glyphicon-minus"></span>
+                                                </button>
+                                            </span>
+                                            <input type="text" id="quantity" name="quantity" class="form-control input-number tw-text-center" placeholder="jugs" value="10" min="1" max="100">
+                                            <span class="input-group-btn">
+                                                <button type="button" class="quantity-right-plus btn  btn-number" data-type="plus" data-field="">
+                                                    <span class="glyphicon glyphicon-plus"></span>
+                                                </button>
+                                            </span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -915,141 +930,24 @@
             </div>
         </div>
     </section>
-
+    <div class="input-group">
+        <span class="input-group-btn">
+            <button type="button" class="quantity-left-minus btn btn-number"  data-type="minus" data-field="">
+                <span class="glyphicon glyphicon-minus"></span>
+            </button>
+        </span>
+        <input type="text" id="quantity" name="quantity" class="form-control input-number tw-text-center" placeholder="jugs" value="10" min="1" max="100">
+        <span class="input-group-btn">
+            <button type="button" class="quantity-right-plus btn  btn-number" data-type="plus" data-field="">
+                <span class="glyphicon glyphicon-plus"></span>
+            </button>
+        </span>
+    </div>
             <!--====== BLOG PART ENDS ======-->
 
             <!--====== FOOTER PART START ======-->
 
             @include('layouts.footer')
-
-            <!-- <div class="content">
-                  <div class="slider slider-1">
-                       <div class="container">
-                         <div class="row as">
-                           <div class="col-lg-9">
-                             <div class="strat">
-                               <div class="image">
-                               <img src="http://www.111ideas.com/wp-content/uploads/2018/07/nature-images-download-for-free.jpg">
-                             </div>
-                             <div class="text">
-                               <h2>Lorem Ipsum</h2>
-                               <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                               <a href="#">Read more</a>
-                             </div>
-                           </div>
-                         </div>
-                         <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="https://tinypost.co/wp-content/uploads/2017/08/A-name-whatsapp-dp-tiranga-images-download-400x400.jpeg">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="http://www.ramadan.quotesms.com/images/eid-mubarak-images/Eid-Mubarak-Images13.jpg">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW-pMc-gq4Zz7lR5vrYc54SprFvaUw_to1ZH4DeSvSMCXlxDdBBA">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEN7VsiAx3kyImPntFdLodJEwby04F_oq-0-LilPydXEVZErse8Q">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5vlNVhd-MmkhRa01p19Qp8e-1CL44og0FBZcyVLjAWhPoxM0BYg">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5u_PqkmYZ9Oez3t26LiT0BYT9jkZ9rwSdd1HAB1J5ER7PUUf9Sw">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="http://www.111ideas.com/wp-content/uploads/2018/07/nature-images-download-for-free.jpg">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSo2CmEdpUtYIAn626gv1E7uhs2SQCuF0CvtbDTD-H6UHH0ItK3">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-9">
-                            <div class="strat">
-                              <div class="image">
-                              <img src="http://shayaristatus1.com/wp-content/uploads/2018/08/WhatsApp-Image-2018-07-08-at-12.38.37-PM-8.jpeg">
-                            </div>
-                            <div class="text">
-                              <h2>Lorem Ipsum</h2>
-                              <p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
-                              <a href="#">Read more</a>
-                            </div>
-                          </div>
-                        </div>
-                       </div>
-                      </div>
-                    </div>
-                  </div> -->
 
             <!--====== FOOTER PART ENDS ======-->
 
@@ -1081,10 +979,6 @@
         <!--====== Magnific Popup js ======-->
         <script src=" {{ URL::asset('js/jquery.magnific-popup.min.js') }}"></script>
 
-
-        <!--====== Slick js ======-->
-        <script src="{{ URL::asset('js/slick.min.js') }}"></script>
-
         <!--====== Main js ======-->
         <script src="{{ URL::asset('js/main.js') }}"></script>
 
@@ -1098,6 +992,5 @@
          <script src="js/custom.js"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
-        <script src="js/slick.js"></script>
     </body>
 </html>
