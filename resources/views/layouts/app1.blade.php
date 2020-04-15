@@ -19,11 +19,11 @@
 <div id="app">
     @include('layouts.header')
 
-    <main class="py-4 container" >
+    <main class=" container" >
         @yield('content')
     </main>
 
-    @include('layouts.footer')
+    @include('layouts.footer1')
 
 </div>
 <!--====== Bootstrap js ======-->

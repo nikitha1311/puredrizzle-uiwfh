@@ -1,11 +1,11 @@
-@extends('layouts.app')
+@extends('layouts.app1')
 @section('head')
 
 @endsection
 
 <!--====== PAGE BANNER PART START ======-->
 
-<section id="page-banner" class="pt-200 pb-150 bg_cover" style="background-image: url(images/bg-4.jpg)">
+<section id="page-banner" class="pt-200 pb-150 bg_cover" style="background-image: url(images/bg-3.jpg)">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -135,51 +135,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-12">
-                <div class="estemate-shipping mt-50">
-                    <h5>Estimate Shopping And Tax</h5>
-                    <form action="#">
-                        <div class="form-box">
-                            <label>Country</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box">
-                            <label>State/Province</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box">
-                            <label>Zip/Postal Code</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box text-right">
-                            <button type="button">GET QUOTE</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="disconut-code mt-50">
-                    <h5>Discount Code</h5>
-                    <form action="#">
-                        <div class="form-box">
-                            <label>Enter your coupon code if you have one.</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box text-right">
-                            <button type="button">APPLY</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="cart-total text-right mt-50">
-                    <p><span>Subtotal </span><span>$999.00  </span></p>
-                    <p><span>Grand Total </span><span>$999.00  </span></p>
-                    <a href="#">PROCED TO CHECKOUT</a>
-                </div>
-            </div>
-        </div>
+        
     </div>
 </section>
 
@@ -234,6 +190,52 @@
                 </div>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12">
+                <div class="estemate-shipping mt-50">
+                    <h5>Estimate Shopping And Tax</h5>
+                    <form action="#">
+                        <div class="form-box">
+                            <label>Country</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-box">
+                            <label>State/Province</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-box">
+                            <label>Zip/Postal Code</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-box text-right">
+                            <button type="button">GET QUOTE</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="disconut-code mt-50">
+                    <h5>Discount Code</h5>
+                    <form action="#">
+                        <div class="form-box">
+                            <label>Enter your coupon code if you have one.</label>
+                            <input type="text">
+                        </div>
+                        <div class="form-box text-right">
+                            <button type="button">APPLY</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="cart-total text-right mt-50">
+                    <p><span>Subtotal </span><span>$999.00  </span></p>
+                    <p><span>Grand Total </span><span>$999.00  </span></p>
+                    <a href="#">PROCED TO CHECKOUT</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -241,22 +243,23 @@
 
 <!--====== DELIVERY PART START ======-->
 
-<section id="delivery-part" class="bg_cover" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-7 offset-xl-1">
-                <div class="delivery-text text-center pb-30">
-                    <h2>Water Delivery 20 k.m. Free Service</h2>
-                    <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
-                    <a href="#">Read More</a>
+
+<section id="delivery-part" class=" bg_cover pt-95 pb-100" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 offset-xl-1">
+                            <div class="delivery-text text-center pb-30">
+                                <h2>Water Delivery 20 k.m.  Free Service</h2>
+                                <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="delivery-image d-none d-lg-flex align-items-end">
-        <img src="images/delivery-van.png" alt="Iamge">
-    </div>
-</section>
+                <div class="delivery-image d-none d-lg-flex align-items-end">
+                    <img src="images/delivery-van.png" alt="Iamge">
+                </div>
+            </section>
 
 <!--====== DELIVERY PART ENDS ======-->
 
