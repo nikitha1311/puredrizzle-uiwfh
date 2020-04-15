@@ -1,21 +1,14 @@
- <!DOCTYPE html>
-    <html class="" lang="en">
+@extends('layouts.app')
+@section('head')
 
-    <head>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css" rel="stylesheet"/>
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css" rel="stylesheet"/>
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
-    </head>
+@endsection
 
     <body>
-        <div class="home-banner">
+{{--        <div class="home-banner">--}}
 
-            <!--====== HEADER PART START ======-->
+{{--            <!--====== HEADER PART START ======-->--}}
 
-            @include('layouts.header')
+{{--            @include('layouts.header')--}}
 
             <!--====== HEADER PART ENDS ======-->
 
@@ -947,7 +940,6 @@
 
             <!--====== FOOTER PART START ======-->
 
-            @include('layouts.footer')
 
             <!--====== FOOTER PART ENDS ======-->
 
@@ -960,33 +952,12 @@
             <!--====== BACK TOP TOP PART ENDS ======-->
         </div>
 
-
-
-
-
-        <!--====== Bootstrap js ======-->
-        <script src=" {{ URL::asset('js/popper.min.js') }}"></script>
-        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-
-        <!--====== Magnific Popup js ======-->
-        <script src=" {{ URL::asset('js/jquery.magnific-popup.min.js') }}"></script>
-
-        <!--====== Main js ======-->
-        <script src="{{ URL::asset('js/main.js') }}"></script>
-
-        <!--====== Owl Carousel js ======-->
-        <script src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
-
-        <!--====== jquery js ======-->
-        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-         <!--====== jquery js ======-->
-         <script src="js/custom.js"></script>
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
     </body>
 
 </html>
+
+@section('scripts')
+
+@append
 
 
