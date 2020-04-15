@@ -7795,7 +7795,7 @@ p {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/shape-2.png);
+    background-image: url(../images/shape.png);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: contain;
@@ -10146,6 +10146,7 @@ p.form-message.error {
     border-color:#3228a75c;
     color: #fff;
     font-size:1.5rem;
+    padding: 8px;
 }
 .quantity-right-plus:hover{
     background-color:#3228a7;
@@ -10156,6 +10157,7 @@ p.form-message.error {
     border-color:#359ddc5c;
     color: #fff;
     font-size:1.5rem;
+    padding: 8px;
 }
 .quantity-left-minus:hover{
     background-color:#1989cc;
@@ -10163,6 +10165,7 @@ p.form-message.error {
 }
 #quantity.input-number{
     font-size:1.5rem;
+    text-align:center;
 }
 
 

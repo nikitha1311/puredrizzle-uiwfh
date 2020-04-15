@@ -1,9 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.app1')
 @section('head')
 
 @endsection
-
-<body>
 
 <!--====== PAGE BANNER PART START ======-->
 
@@ -137,6 +135,62 @@
                 </div>
             </div>
         </div>
+        
+    </div>
+</section>
+
+<!--====== CART PART ENDS ======-->
+
+<!--====== BRAND PART START ======-->
+
+<section id="brand-part" class="pt-70 pb-80">
+    <div class="container">
+        
+        <div class="row">
+            <div class="brand-slied owl-carousel mt-45">
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/1.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/2.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/3.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/4.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/1.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/2.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/3.png" alt="Brand">
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="singel-brand">
+                        <img src="images/patnarlogo/4.png" alt="Brand">
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-lg-4 col-md-12">
                 <div class="estemate-shipping mt-50">
@@ -185,94 +239,27 @@
     </div>
 </section>
 
-<!--====== CART PART ENDS ======-->
-
-<!--====== BRAND PART START ======-->
-
-<section id="brand-part" class="pt-70 pb-80">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8">
-                <div class="section-title text-center">
-                    <h2>Business Partners</h2>
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibus blandit. Vivamus ac commodo eros.</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="brand-slied owl-carousel mt-45">
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/1.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/2.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/3.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/4.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/1.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/2.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/3.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/4.png" alt="Brand">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!--====== BRAND PART ENDS ======-->
 
 <!--====== DELIVERY PART START ======-->
 
-<section id="delivery-part" class="bg_cover" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-7 offset-xl-1">
-                <div class="delivery-text text-center pb-30">
-                    <h2>Water Delivery 20 k.m. Free Service</h2>
-                    <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
-                    <a href="#">Read More</a>
+
+<section id="delivery-part" class=" bg_cover pt-95 pb-100" data-overlay="8" style="background-image: url(images/bg-2.jpg)">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-7 offset-xl-1">
+                            <div class="delivery-text text-center pb-30">
+                                <h2>Water Delivery 20 k.m.  Free Service</h2>
+                                <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-    <div class="delivery-image d-none d-lg-flex align-items-end">
-        <img src="images/delivery-van.png" alt="Iamge">
-    </div>
-</section>
+                <div class="delivery-image d-none d-lg-flex align-items-end">
+                    <img src="images/delivery-van.png" alt="Iamge">
+                </div>
+            </section>
 
 <!--====== DELIVERY PART ENDS ======-->
 
