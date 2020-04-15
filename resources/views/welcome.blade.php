@@ -473,10 +473,10 @@
             </div>
             <div class="row">
                 <div class="client-slied owl-carousel owl-loaded owl-drag">
-                    
-                    
-                    
-                    
+
+
+
+
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2400px, 0px, 0px); transition: all 0.8s ease 0s; width: 4800px;"><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
                         <div class="singel-client mt-50">
                             <div class="client-thum">
@@ -663,7 +663,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-item" style="width: 400px;">
                             <div class="col-lg-12">
                                 <div class="singel-blog mt-30">
@@ -682,7 +682,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-item" style="width: 400px;">
                             <div class="col-lg-12">
                                 <div class="singel-blog mt-30">
@@ -701,7 +701,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-item" style="width: 400px;">
                             <div class="col-lg-12">
                                 <div class="singel-blog mt-30">
@@ -896,6 +896,7 @@
                         </div>
                 </div>
             </section>
+
 
 
             <!--====== BLOG PART ENDS ======-->
