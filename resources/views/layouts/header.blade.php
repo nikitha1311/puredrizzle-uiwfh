@@ -44,11 +44,11 @@
                                         <a href="about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#">Cart Products<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
+                                        <a href="/cart">Cart Products<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
                                         <ul class="sub-menu">
                                             <li class="li"><a href="Product.html">Products</a></li>
                                             <li class="li"><a href="Product.html">Products Details</a></li>
-                                            <li class="li"><a href="cart.html">Cart</a></li>
+                                            <li class="li"><a href="/cart">Cart</a></li>
                                             <li class="li"><a href="checkout.html">Checkout</a></li>
                                         </ul>
                                     </li>
@@ -76,7 +76,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            
+
                             <div class="cart-search ">
                                 <p class="d-none d-lg-block"><i class="fa fa-phone"></i> (+Phone number)</p>
                                 <ul class="text-right">
