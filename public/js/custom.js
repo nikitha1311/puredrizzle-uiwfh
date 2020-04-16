@@ -1,28 +1,34 @@
 $(window).scroll(function(e){
+  console.log('hi');
         let height = $(window).height();
-        $('.navigation').toggleClass('sticky',$(this).scrollTop() > height);
+        $('.navigation ').toggleClass('sticky',$(this).scrollTop() > height);
     });
 
 $(window).on('load', function(event) {
-    
+
         $(".preloader").delay(500).fadeOut(500);
 
     let value ;
     $('.quantity-left-minus').click(function(e){
         e.preventDefault();
-        value = $('#quantity').val() 
+        value = $('#quantity').val()
         value -= 1;
-        $('#quantity').val(value); 
+        $('#quantity').val(value);
         if(value < 0){
-            $('#quantity').val('0'); 
-        } 
-    })
+            $('#quantity').val('0');
+        }
+    });
     $('.quantity-right-plus').click(function(e){
         e.preventDefault();
-        value = $('#quantity').val() 
+        value = $('#quantity').val()
         value = Number(value) + Number('1');
-        $('#quantity').val(value);         
-    })
+        $('#quantity').val(value);
+    });
+
+
+     $(".navbar-toggler").on('click', function() {
+        $(this).toggleClass("active");
+    });
 
     $(".slider-area").slick({
         dots: true,
@@ -32,9 +38,9 @@ $(window).on('load', function(event) {
         autoplay:true,
         speed:1000,
 
-        
+
       responsive: [
-    
+
         {
          breakpoint: 991,
          settings: {
@@ -61,11 +67,16 @@ $(window).on('load', function(event) {
        // instead of a settings object
      ]
   });
-
-
+  
+  $(".vertical-slider-area").slick({
+    dots: true,
+    vertical: true,
+    centerMode: true,
+    autoplay:true,
+    speed:1000,
+  });
 });
 
-   
-  
 
-   
+
+

@@ -30,14 +30,9 @@
 <script src=" {{ URL::asset('js/popper.min.js') }}"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
-<!--====== Magnific Popup js ======-->
-<script src=" {{ URL::asset('js/jquery.magnific-popup.min.js') }}"></script>
-
 <!--====== Main js ======-->
 <script src="{{ URL::asset('js/main.js') }}"></script>
 
-<!--====== Owl Carousel js ======-->
-<script src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 
 <!--====== jquery js ======-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

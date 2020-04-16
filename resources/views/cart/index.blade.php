@@ -21,7 +21,7 @@
 
 <!--====== CART PART START ======-->
 
-<section id="cart-part" class="pt-75">
+<section id="cart-part" class="pt-75 pb-75">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -136,110 +136,56 @@
             </div>
         </div>
         
+        <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <div class="estemate-shipping mt-50">
+                        <h5>Estimate Shopping And Tax</h5>
+                        <form action="#">
+                            <div class="form-box">
+                                <label>Country</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-box">
+                                <label>State/Province</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-box">
+                                <label>Zip/Postal Code</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-box text-right">
+                                <button type="button">GET QUOTE</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="disconut-code mt-50">
+                        <h5>Discount Code</h5>
+                        <form action="#">
+                            <div class="form-box">
+                                <label>Enter your coupon code if you have one.</label>
+                                <input type="text">
+                            </div>
+                            <div class="form-box text-right">
+                                <button type="button">APPLY</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="cart-total text-right mt-50">
+                        <p><span>Subtotal </span><span>$999.00  </span></p>
+                        <p><span>Grand Total </span><span>$999.00  </span></p>
+                        <a href="#">PROCED TO CHECKOUT</a>
+                    </div>
+                </div>
+            </div>
     </div>
 </section>
 
 <!--====== CART PART ENDS ======-->
 
-<!--====== BRAND PART START ======-->
-
-<section id="brand-part" class="pt-70 pb-80">
-    <div class="container">
-        
-        <div class="row">
-            <div class="brand-slied owl-carousel mt-45">
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/1.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/2.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/3.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/4.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/1.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/2.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/3.png" alt="Brand">
-                    </div>
-                </div>
-                <div class="col-lg-12">
-                    <div class="singel-brand">
-                        <img src="images/patnarlogo/4.png" alt="Brand">
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4 col-md-12">
-                <div class="estemate-shipping mt-50">
-                    <h5>Estimate Shopping And Tax</h5>
-                    <form action="#">
-                        <div class="form-box">
-                            <label>Country</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box">
-                            <label>State/Province</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box">
-                            <label>Zip/Postal Code</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box text-right">
-                            <button type="button">GET QUOTE</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="disconut-code mt-50">
-                    <h5>Discount Code</h5>
-                    <form action="#">
-                        <div class="form-box">
-                            <label>Enter your coupon code if you have one.</label>
-                            <input type="text">
-                        </div>
-                        <div class="form-box text-right">
-                            <button type="button">APPLY</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="cart-total text-right mt-50">
-                    <p><span>Subtotal </span><span>$999.00  </span></p>
-                    <p><span>Grand Total </span><span>$999.00  </span></p>
-                    <a href="#">PROCED TO CHECKOUT</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--====== BRAND PART ENDS ======-->
 
 <!--====== DELIVERY PART START ======-->
 

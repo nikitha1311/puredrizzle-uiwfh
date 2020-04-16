@@ -4,9 +4,9 @@ $(function() {
 
     //===== Prealoder
 
-    $(window).on('load', function(event) {
-        $(".preloader").delay(500).fadeOut(500);
-    });
+    // $(window).on('load', function(event) {
+    //     $(".preloader").delay(500).fadeOut(500);
+    // });
 
 
     //===== Mobile Menu 
@@ -35,16 +35,16 @@ $(function() {
 
     //===== Sticky
 
-    $(window).on('scroll', function(event) {
-        var scroll = $(window).scrollTop();
-        if (scroll < 245) {
-            $(".navigation").removeClass("sticky");
-            $(".header-2 img").attr("src", "images/logo-light.png");
-        } else {
-            $(".navigation").addClass("sticky");
-            $(".header-2 img").attr("src", "images/logo.png");
-        }
-    });
+    // $(window).on('scroll', function(event) {
+    //     var scroll = $(window).scrollTop();
+    //     if (scroll < 245) {
+    //         $(".navigation").removeClass("sticky");
+    //         $(".header-2 img").attr("src", "images/logo-light.png");
+    //     } else {
+    //         $(".navigation").addClass("sticky");
+    //         $(".header-2 img").attr("src", "images/logo.png");
+    //     }
+    // });
 
     //===== Account Popup
 

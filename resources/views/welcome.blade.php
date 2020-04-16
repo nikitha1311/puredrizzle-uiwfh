@@ -16,55 +16,91 @@
 
             <!--====== SLIDER PART START ======-->
 
-            <section id="slider-part" class="bg_cover slider-part-2" style="background-image: url(images/bg-3.jpg)">
-                <div class="content-slied slick-initialized slick-slider"><span class="prev slick-arrow" style="display: block;"><i class="fa fa-angle-left"></i></span>
-                    <div class="slick-list draggable"><div class="slick-track" style="opacity: 1; width: 4047px;"><div class="single-slider d-flex align-items-center slick-slide" data-slick-index="0" aria-hidden="true" style="width: 1349px; position: relative; left: 0px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;" tabindex="-1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-7 col-md-11">
-                                    <div class="slider-content">
-                                        <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
-                                        <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
-                                        <a data-animation="fadeInUp" data-delay="2s" href="#" style="animation-delay: 2s;" class="" tabindex="-1">Learn More</a>
+            <section id="slider-part" class="bg_cover slider-part-2 d-flex justify-content-center align-items-center" style="background-image: url(images/bg-3.jpg)">
+                <div class="content-slied slick-initialized slick-slider">
+                    <!-- <span class="prev slick-arrow" style="display: block;">
+                        <i class="fa fa-angle-left"></i>
+                    </span> -->
+                        <div class='vertical-slider-area slider'>
+                            <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                            aria-hidden="true"tabindex="-1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-11">
+                                            <div class="slider-content">
+                                                <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life1</h2>
+                                                <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                                <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="single-slider d-flex align-items-center slick-slide slick-current slick-active" data-slick-index="1" aria-hidden="false" style="width: 1349px; position: relative; left: -1349px; top: 0px; z-index: 999; opacity: 1;" tabindex="0">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-7 col-md-11">
-                                    <div class="slider-content">
-                                        <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
-                                        <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
-                                        <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="0" style="animation-delay: 2s;" class="">Learn More</a>
+                            <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                            aria-hidden="true"tabindex="-1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-11">
+                                            <div class="slider-content">
+                                                <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life2</h2>
+                                                <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                                <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="single-slider d-flex align-items-center slick-slide" data-slick-index="2" aria-hidden="true" style="width: 1349px; position: relative; left: -2698px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;" tabindex="-1">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-xl-6 col-lg-7 col-md-11">
-                                    <div class="slider-content">
-                                        <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
-                                        <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
-                                        <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                            <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                            aria-hidden="true"tabindex="-1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-11">
+                                            <div class="slider-content">
+                                                <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
+                                                <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                                <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                            aria-hidden="true"tabindex="-1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-11">
+                                            <div class="slider-content">
+                                                <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life3</h2>
+                                                <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                                <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                            aria-hidden="true"tabindex="-1">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-xl-6 col-lg-7 col-md-11">
+                                            <div class="slider-content">
+                                                <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life4</h2>
+                                                <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                                <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
                         </div>
+                    <!-- <span class="next slick-arrow" style="display: block;">
+                        <i class="fa fa-angle-right">
+                        </i>
+                    </span> -->
                     </div>
-                </div>
-            </div>
-            <span class="next slick-arrow" style="display: block;">
-                <i class="fa fa-angle-right">
-                </i>
-            </span>
-            </div>
-        </section>
+                </section>
 
             <!--====== SLIDER PART ENDS ======-->
 
@@ -473,10 +509,10 @@
             </div>
             <div class="row">
                 <div class="client-slied owl-carousel owl-loaded owl-drag">
-                    
-                    
-                    
-                    
+
+
+
+
                 <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2400px, 0px, 0px); transition: all 0.8s ease 0s; width: 4800px;"><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
                         <div class="singel-client mt-50">
                             <div class="client-thum">
@@ -663,7 +699,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-item" style="width: 400px;">
                             <div class="col-lg-12">
                                 <div class="singel-blog mt-30">
@@ -682,7 +718,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-item" style="width: 400px;">
                             <div class="col-lg-12">
                                 <div class="singel-blog mt-30">
@@ -701,7 +737,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div class="owl-item" style="width: 400px;">
                             <div class="col-lg-12">
                                 <div class="singel-blog mt-30">
@@ -896,6 +932,88 @@
                         </div>
                 </div>
             </section>
+
+            
+
+            <!-- <section id='vertical-slider-area slider' class='pt-70 pb-70'>
+                
+                   
+
+                    <div class='vertical-slider-area slider'>
+                        <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                        aria-hidden="true"tabindex="-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-7 col-md-11">
+                                        <div class="slider-content">
+                                            <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
+                                            <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                            <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                        aria-hidden="true"tabindex="-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-7 col-md-11">
+                                        <div class="slider-content">
+                                            <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
+                                            <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                            <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                        aria-hidden="true"tabindex="-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-7 col-md-11">
+                                        <div class="slider-content">
+                                            <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
+                                            <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                            <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                        aria-hidden="true"tabindex="-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-7 col-md-11">
+                                        <div class="slider-content">
+                                            <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
+                                            <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                            <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='single-slider d-flex align-items-center slick-slide'data-slick-index="0"
+                        aria-hidden="true"tabindex="-1">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-7 col-md-11">
+                                        <div class="slider-content">
+                                            <h2 data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;" class="">Always want safe and good water for healthy life</h2>
+                                            <p data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;" class="">Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibu.</p>
+                                            <a data-animation="fadeInUp" data-delay="2s" href="#" tabindex="-1" style="animation-delay: 2s;" class="">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+            </section> -->
 
 
             <!--====== BLOG PART ENDS ======-->
