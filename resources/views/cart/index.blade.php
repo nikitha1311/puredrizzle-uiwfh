@@ -5,7 +5,7 @@
 
 <!--====== PAGE BANNER PART START ======-->
 
-<section id="page-banner" class="pt-200 pb-150 bg_cover" style="background-image: url(images/bg-3.jpg)">
+<section id="page-banner" class="pt-200 pb-150 bg_cover h-50" style="background-image: url(images/bg-4.jpg)">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">

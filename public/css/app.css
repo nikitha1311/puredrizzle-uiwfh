@@ -6294,7 +6294,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
 .slick-slide {
     display: none;
     float: left;
-    height: 100%;
+    height: auto ;
     min-height: 1px;
 }
 

@@ -1,7 +1,7 @@
 $(window).scroll(function(e){
-  console.log('hi');
-        let height = $(window).height();
-        $('.navigation ').toggleClass('sticky',$(this).scrollTop() > height);
+        let height = $(window).height();;
+        // $('#navigator').toggleClass('sticky', $(this).scrollTop() > height);
+        $('#navigator').toggleClass("sticky", $(this).scrollTop() > height );
     });
 
 $(window).on('load', function(event) {

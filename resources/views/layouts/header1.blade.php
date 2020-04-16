@@ -10,8 +10,12 @@
     </div>
 
     <!--====== PREALOADER PART START ======-->
-
-<header id="header-part" class="header-2">
+<style>
+    .navigation{
+        top:0px;
+    }
+</style>
+<header id="header-part" class="">
         <!--===== NAVBAR START =====-->
         <div class="navigation " id='navigator'>
             <div class="container-fluid">
@@ -78,7 +82,7 @@
                             </div>
 
                             <div class="cart-search ">
-                                <p class="d-none d-lg-block"><i class="fa fa-phone"></i> (+Phone number)</p>
+                                <p class="d-none "><i class="fa fa-phone"></i> (+Phone number)</p>
                                 <ul class="text-right">
                                     <li><a href="#"><i class="fa fa-shopping-basket"></i><span>0</span></a></li>
                                     <li><a id="search" href="#"><i class="fa fa-search"></i></a>
