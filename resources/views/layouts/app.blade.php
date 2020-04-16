@@ -33,7 +33,6 @@
 <!--====== Main js ======-->
 <script src="{{ URL::asset('js/main.js') }}"></script>
 
-
 <!--====== jquery js ======-->
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
