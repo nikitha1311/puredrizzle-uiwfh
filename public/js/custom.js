@@ -1,7 +1,24 @@
-$(window).scroll(function(e){
-        let height = $(window).height();;
-        // $('#navigator').toggleClass('sticky', $(this).scrollTop() > height);
-        $('#navigator').toggleClass("sticky", $(this).scrollTop() > height );
+// $(window).scroll(function(e){
+//         let height = $( window ).height();
+//         // $('#navigator').toggleClass('sticky', $(this).scrollTop() > height);
+//         console.log($(this).scrollTop)
+//         $('#navigator').toggleClass("sticky", $(this).scrollTop() > height );
+//         console.log('height',height)
+//         if ($(this).scrollTop() > height) {
+//             console.log('hi')
+//             $(".back-to-top").fadeIn(200)
+//         } else {
+//             console.log('helo')
+//             $(".back-to-top").fadeOut(200)
+//         }
+//     });
+
+
+    $(window).scroll(function(e){
+        let height = $(window).height();
+        let nav = $('#navigator');
+        console.log(e.target.scrollingElement.scrollTop)
+        $('nav').toggleClass('sticky',$(this).scrollTop() > height);
     });
 
 $(window).on('load', function(event) {
@@ -28,7 +45,26 @@ $(window).on('load', function(event) {
 
      $(".navbar-toggler").on('click', function() {
         $(this).toggleClass("active");
+        $('#navbarSupportedContent').toggleClass('show')
     });
+
+
+    var subMenu = $(".sub-menu-bar .navbar-nav .sub-menu");
+
+    if (subMenu.length) {
+        subMenu.parent('li').children('a').append(function() {
+            return '<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button>';
+        });
+
+        var subMenuToggler = $(".sub-menu-bar .navbar-nav .sub-nav-toggler");
+
+        subMenuToggler.on('click', function() {
+            $(this).parent().parent().children(".sub-menu").slideToggle();
+            return false
+        });
+
+    }
+
 
     $(".slider-area").slick({
         dots: true,

@@ -32,43 +32,43 @@
                             <div class="navbar-collapse sub-menu-bar collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav m-auto">
                                     <li class="nav-item">
-                                        <a class="active" href="index.html">Home<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
+                                        <a class="active" href="#">Home<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
                                         <ul class="sub-menu">
-                                            <li class="li"><a href="index.html">Home 01</a></li>
-                                            <li class="li"><a href="index-2.html">Home 02</a></li>
-                                            <li class="li"><a href="index-3.html">Home 03</a></li>
-                                            <li class="li"><a href="index-4.html">Home 04</a></li>
+                                            <li class="li"><a href="#">Home 01</a></li>
+                                            <li class="li"><a href="#">Home 02</a></li>
+                                            <li class="li"><a href="#">Home 03</a></li>
+                                            <li class="li"><a href="#">Home 04</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a href="about.html">About Us</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="/cart">Cart Products<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
+                                        <a href="#">Cart Products<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
                                         <ul class="sub-menu">
-                                            <li class="li"><a href="Product.html">Products</a></li>
-                                            <li class="li"><a href="Product.html">Products Details</a></li>
-                                            <li class="li"><a href="/cart">Cart</a></li>
-                                            <li class="li"><a href="checkout.html">Checkout</a></li>
+                                            <li class="li"><a href="#">Products</a></li>
+                                            <li class="li"><a href="#">Products Details</a></li>
+                                            <li class="li"><a href="#">Cart</a></li>
+                                            <li class="li"><a href="#">Checkout</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a href="#">Our Pages<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
                                         <ul class="sub-menu">
-                                            <li class="li"><a href="testimonial.html">Testimonial</a></li>
-                                            <li class="li"><a href="faq-Page.html">Faq</a></li>
-                                            <li class="li"><a href="team.html">Team</a></li>
-                                            <li class="li"><a href="pricing.html">Pricing</a></li>
-                                            <li class="li"><a href="login.html">Login</a></li>
-                                            <li class="li"><a href="Register.html">Register</a></li>
+                                            <li class="li"><a href="#">Testimonial</a></li>
+                                            <li class="li"><a href="#">Faq</a></li>
+                                            <li class="li"><a href="#">Team</a></li>
+                                            <li class="li"><a href="#">Pricing</a></li>
+                                            <li class="li"><a href="#">Login</a></li>
+                                            <li class="li"><a href="#">Register</a></li>
                                         </ul>
 
                                     </li>
                                     <li class="nav-item">
-                                        <a href="blog.html">Blog<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
+                                        <a href="#">Blog<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
                                         <ul class="sub-menu">
-                                            <li class="li"><a href="blog.html">Blog</a></li>
-                                            <li class="li"><a href="blog-details.html">Blog Details</a></li>
+                                            <li class="li"><a href="#">Blog</a></li>
+                                            <li class="li"><a href="#">Blog Details</a></li>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
