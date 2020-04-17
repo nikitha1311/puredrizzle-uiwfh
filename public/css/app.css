@@ -5569,7 +5569,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         box-shadow: 0px 20px 20px 0px rgba(46, 76, 185, 0.1);
         padding: 8px 0;
         position: absolute;
-        top: 100%;
+        top: 125%;
         left: 0;
         width: 100%;
     }
@@ -5579,7 +5579,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         border: 0;
         background: none;
         cursor: pointer;
-        display: block;
+        display: block !important;
         top: 0;
         padding: 5px 12px;
     }
@@ -5591,11 +5591,11 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         color: #2c2d3e;
     }
     .header-2 .navbar .navbar-nav .nav-item a {
-        color: #2c2d3e;
+        color: #2c2d3e !important;
     }
     .header-2 .navbar .navbar-nav .nav-item a.active,
     .header-2 .navbar .navbar-nav .nav-item:hover>a {
-        color: #2e4db9;
+        color: #2e4db9 !important;
     }
     .single-slider {
         height: 600px;
@@ -5717,7 +5717,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         box-shadow: 0px 20px 20px 0px rgba(46, 76, 185, 0.1);
         padding: 8px 0;
         position: absolute;
-        top: 100%;
+        top: 125%;
         left: 0;
         width: 100%;
     }
@@ -5727,7 +5727,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         border: 0;
         background: none;
         cursor: pointer;
-        display: block;
+        display: block !important;
         top: 0;
         padding: 5px 12px;
     }
@@ -5739,11 +5739,11 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         color: #2c2d3e;
     }
     .header-2 .navbar .navbar-nav .nav-item a {
-        color: #2c2d3e;
+        color: #2c2d3e !important;
     }
     .header-2 .navbar .navbar-nav .nav-item a.active,
     .header-2 .navbar .navbar-nav .nav-item:hover>a {
-        color: #2e4db9;
+        color: #2e4db9 !important;
     }
     .single-slider {
         height: 600px;
@@ -5906,7 +5906,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         box-shadow: 0px 20px 20px 0px rgba(46, 76, 185, 0.1);
         padding: 8px 0;
         position: absolute;
-        top: 100%;
+        top: 125%;
         left: 0;
         width: 100%;
     }
@@ -5916,7 +5916,7 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         border: 0;
         background: none;
         cursor: pointer;
-        display: block;
+        display: block !important;
         top: 0;
         padding: 5px 12px;
     }
@@ -5928,11 +5928,11 @@ pure-drizzle-wfhui/webpro.themepul.com/Fresh_Vial/demo/freeshvila/css/owl.carous
         color: #2c2d3e;
     }
     .header-2 .navbar .navbar-nav .nav-item a {
-        color: #2c2d3e;
+        color: #2c2d3e !important;
     }
     .header-2 .navbar .navbar-nav .nav-item a.active,
     .header-2 .navbar .navbar-nav .nav-item:hover>a {
-        color: #2e4db9;
+        color: #2e4db9 !important;
     }
     .single-slider {
         height: 600px;
@@ -6620,7 +6620,7 @@ p {
 /*===== NAVBAR =====*/
 
 .navigation {
-    position: absolute;
+    position: fixed;
     top: 54px;
     left: 0;
     width: 100%;
