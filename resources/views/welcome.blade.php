@@ -92,8 +92,8 @@
                                     </div>
                                 </div>
                             </div>
-                            
-                            
+
+
                         </div>
                     <!-- <span class="next slick-arrow" style="display: block;">
                         <i class="fa fa-angle-right">
@@ -942,7 +942,7 @@
 
             <!--====== BACK TOP TOP PART START ======-->
 
-            <a href="#" class="back-to-top">
+            <a href="#" class="back-to-top" style="display: block">
                 <img src="images/back-to-top.png" alt="Icon">
             </a>
 

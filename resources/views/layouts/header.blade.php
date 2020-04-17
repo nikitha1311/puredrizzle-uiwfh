@@ -29,7 +29,7 @@
                                 <span class="icon-bar"></span>
                             </button>
 
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                            <div class="navbar-collapse sub-menu-bar collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav m-auto">
                                     <li class="nav-item">
                                         <a class="active" href="index.html">Home<button class="sub-nav-toggler"> <i class="fa fa-chevron-down"></i> </button></a>
