@@ -948,9 +948,7 @@
 
             <!--====== BACK TOP TOP PART ENDS ======-->
         </div>
-
     </body>
-
 </html>
 
 @section('scripts')
