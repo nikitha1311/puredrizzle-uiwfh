@@ -6620,7 +6620,7 @@ p {
 /*===== NAVBAR =====*/
 
 .navigation {
-    position: fixed;
+    position: absolute;
     top: 54px;
     left: 0;
     width: 100%;
@@ -12033,7 +12033,10 @@ screen and (max-height: 300px) {
     .slick-next:before {
       color: black;
     }
-
+#client-part .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
 
 #blog-part .slick-slide {
       transition: all ease-in-out .3s;

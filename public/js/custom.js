@@ -18,7 +18,7 @@
         let height = $(window).height();
         let nav = $('#navigator');
         console.log(e.target.scrollingElement.scrollTop)
-        $('nav').toggleClass('sticky',$(this).scrollTop() > height);
+        $('#navigator').toggleClass('sticky',e.target.scrollingElement.scrollTop > 400);
     });
 
 $(window).on('load', function(event) {
@@ -111,10 +111,21 @@ $(window).on('load', function(event) {
     autoplay:true,
     speed:1000,
   });
+
+  $(".client-part-slider").slick({
+    dots: true,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay:true,
+    speed:1000,
+  })
 });
 
 
 $(window).on('scroll', function(event) {
+    // console.log('hi',$(this).scrollTop())
+    console.log('hi',$(window).innerHeight())
     if ($(this).scrollTop() > 600) {
         $(".back-to-top").fadeIn(200)
     } else {

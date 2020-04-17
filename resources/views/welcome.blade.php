@@ -489,177 +489,45 @@
             <!--====== DELIVERY PART ENDS ======-->
 
             <!--====== CLIENT PART START ======-->
-            <section id="client-part" class="pt-80">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="section-title text-center">
-                        <img src="images/client/c.png" alt="icon">
-                        <h2>Our Exhort Happy Clients say !</h2>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibus blandit. Vivamus ac commodo eros.</p>
+          
+            <section id='client-part' class='pt-70 pb-70'>
+              <div class='container'>
+              <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="section-title text-center">
+                            <img src="images/client/c.png" alt="icon">
+                            <h2>Our Exhort Happy Clients say !</h2>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibus blandit. Vivamus ac commodo eros.</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="client-slied owl-carousel owl-loaded owl-drag">
-
-
-
-
-                <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2400px, 0px, 0px); transition: all 0.8s ease 0s; width: 4800px;"><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-1.jpg" alt="Client">
+               
+                <div class='client-part-slider slider'>
+                    <div class="owl-item" style="width: 600px;">
+                        <div class="col-lg-12">
+                            <div class="singel-client mt-50">
+                                <div class="client-thum">
+                                    <div class="client-img">
+                                        <img src="images/client/c-2.jpg" alt="Client">
+                                    </div>
+                                    <div class="client-head">
+                                        <h5>Toya Kanti Roy</h5>
+                                        <span>Graphic Designer</span>
+                                    </div>
                                 </div>
-                                <div class="client-head">
-                                    <h5>Anil Barua</h5>
-                                    <span>Laravel Developer</span>
+                                <div class="client-text mt-35">
+                                    <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
                                 </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-2.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Toya Kanti Roy</h5>
-                                    <span>Graphic Designer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-1.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Anil Barua</h5>
-                                    <span>Laravel Developer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-2.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Toya Kanti Roy</h5>
-                                    <span>Graphic Designer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-1.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Anil Barua</h5>
-                                    <span>Laravel Developer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item active" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-2.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Toya Kanti Roy</h5>
-                                    <span>Graphic Designer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-1.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Anil Barua</h5>
-                                    <span>Laravel Developer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div><div class="owl-item cloned" style="width: 600px;"><div class="col-lg-12">
-                        <div class="singel-client mt-50">
-                            <div class="client-thum">
-                                <div class="client-img">
-                                    <img src="images/client/c-2.jpg" alt="Client">
-                                </div>
-                                <div class="client-head">
-                                    <h5>Toya Kanti Roy</h5>
-                                    <span>Graphic Designer</span>
-                                </div>
-                            </div>
-                            <div class="client-text mt-35">
-                                <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
-                            </div>
-                        </div>
-                    </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
-            </div>
-        </div>
-    </section>
-            <!-- <section id='client-part' class='pt-70 pb-70'>
-                <div class=''>
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="section-title text-center">
-                                <img src="images/client/c.png" alt="icon">
-                                <h2>Our Exhort Happy Clients say !</h2>
-                                <ul>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                <p>Nunc molestie mi nunc, nec accumsan libero dignissim sit amet. Fusce sit amet tincidunt metus. Nunc eu risus suscipit massa dapibus blandit. Vivamus ac commodo eros.</p>
                             </div>
                         </div>
                     </div>
-
-
-
-
-
 
                     <div class="owl-item" style="width: 600px;">
                         <div class="col-lg-12">
@@ -680,128 +548,52 @@
                         </div>
                     </div>
 
-                    <div class='slider-area slider'>
-                        <div class="owl-item" style="width: 400px;">
-                            <div class="col-lg-12">
-                                <div class="singel-blog mt-30">
-                                    <div class="blog-thum">
-                                        <img src="images/blog/b-3.jpg" alt="Blog">
-                                        <div class="date text-center">
-                                            <h3>22</h3>
-                                            <span>Sep 2020</span>
-                                        </div>
+                    <div class="owl-item" style="width: 600px;">
+                        <div class="col-lg-12">
+                            <div class="singel-client mt-50">
+                                <div class="client-thum">
+                                    <div class="client-img">
+                                        <img src="images/client/c-2.jpg" alt="Client">
                                     </div>
-                                    <div class="blog-cont pt-25">
-                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                        <a href="#">Read More</a>
+                                    <div class="client-head">
+                                        <h5>Toya Kanti Roy</h5>
+                                        <span>Graphic Designer</span>
                                     </div>
+                                </div>
+                                <div class="client-text mt-35">
+                                    <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
                                 </div>
                             </div>
                         </div>
+                    </div>
 
-                        <div class="owl-item" style="width: 400px;">
-                            <div class="col-lg-12">
-                                <div class="singel-blog mt-30">
-                                    <div class="blog-thum">
-                                        <img src="images/blog/b-1.jpg" alt="Blog">
-                                        <div class="date text-center">
-                                            <h3>22</h3>
-                                            <span>Sep 2020</span>
-                                        </div>
+                    <div class="owl-item" style="width: 600px;">
+                        <div class="col-lg-12">
+                            <div class="singel-client mt-50">
+                                <div class="client-thum">
+                                    <div class="client-img">
+                                        <img src="images/client/c-2.jpg" alt="Client">
                                     </div>
-                                    <div class="blog-cont pt-25">
-                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                        <a href="#">Read More</a>
+                                    <div class="client-head">
+                                        <h5>Toya Kanti Roy</h5>
+                                        <span>Graphic Designer</span>
                                     </div>
+                                </div>
+                                <div class="client-text mt-35">
+                                    <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus bibendum augue ac arcu pharetra congue. Proin accumsan elit et elit vehicula, sit amet fringilla.</p>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="owl-item" style="width: 400px;">
-                            <div class="col-lg-12">
-                                <div class="singel-blog mt-30">
-                                    <div class="blog-thum">
-                                        <img src="images/blog/b-2.jpg" alt="Blog">
-                                        <div class="date text-center">
-                                            <h3>22</h3>
-                                            <span>Sep 2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="blog-cont pt-25">
-                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="owl-item" style="width: 400px;">
-                            <div class="col-lg-12">
-                                <div class="singel-blog mt-30">
-                                    <div class="blog-thum">
-                                        <img src="images/blog/b-3.jpg" alt="Blog">
-                                        <div class="date text-center">
-                                            <h3>22</h3>
-                                            <span>Sep 2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="blog-cont pt-25">
-                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item" style="width: 400px;">
-                            <div class="col-lg-12">
-                                <div class="singel-blog mt-30">
-                                    <div class="blog-thum">
-                                        <img src="images/blog/b-2.jpg" alt="Blog">
-                                        <div class="date text-center">
-                                            <h3>22</h3>
-                                            <span>Sep 2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="blog-cont pt-25">
-                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="owl-item" style="width: 400px;">
-                            <div class="col-lg-12">
-                                <div class="singel-blog mt-30">
-                                    <div class="blog-thum">
-                                        <img src="images/blog/b-1.jpg" alt="Blog">
-                                        <div class="date text-center">
-                                            <h3>22</h3>
-                                            <span>Sep 2020</span>
-                                        </div>
-                                    </div>
-                                    <div class="blog-cont pt-25">
-                                        <a href="#"><h5>Etiam sit amet justo tincidunt.</h5></a>
-                                        <p>Nullam condimentum varius ipsum at viverra. Donec tortor metus, sollicitudin vitae est id, ullamcorper pretium tortor. Phasellus.</p>
-                                        <a href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    </div>
                 </div>
-            </div>
-        </section> -->
+              </div>           
+            </section>
 
             <!--====== CLIENT PART ENDS ======-->
 
             <!--====== BLOG PART START ======-->
 
             <section id='blog-part' class='pt-70 pb-70'>
-                <div class=''>
                     <div class="row justify-content-center">
                         <div class="col-lg-8">
                             <div class="section-title text-center pb-15">
@@ -930,7 +722,7 @@
                                 </div>
                             </div>
                         </div>
-                </div>
+                    </div>
             </section>
 
             <!--====== BLOG PART ENDS ======-->
